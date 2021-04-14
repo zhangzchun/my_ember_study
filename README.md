@@ -64,6 +64,8 @@ The {{outlet}} keyword denotes the place where our site's pages should be render
 > + Organizing Code with Namespaced Components
 > ember generate component rental/image
 
-
+# Interactive Components
+> + Adding Behavior to Components with Classes
+> ember generate component-class rental/image
 
 
