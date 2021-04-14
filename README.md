@@ -35,4 +35,11 @@ installing component-test
 <a> tag with the appropriate href would require the browser to make a full-page refresh,
 ```
 
+# Automated Testing
+>ember generate acceptance-test my_ember_study
+```
+In this case, we generated an acceptance test located at tests\acceptance\my-ember-study-test.js
+```
+
+
 
