@@ -3,6 +3,7 @@
 # scientists
 > npm install -g ember-cli  
 > ember new my_ember_study  
+> ember server
 > ember generate route scientists  
 
 # person
@@ -36,7 +37,8 @@ installing component-test
 ```
 
 # Automated Testing
->ember generate acceptance-test my_ember_study
+> ember generate acceptance-test my_ember_study
+> ember test --server or ember t -s
 ```
 In this case, we generated an acceptance test located at tests\acceptance\my-ember-study-test.js
 ```
@@ -46,5 +48,11 @@ Passing Content to Components with {{yield}}
 > ember generate component jumbo
 > ember generate component-class jumbo
 > ember generate component-test jumbo
+
+> ember generate component nav-bar
+> ember generate component-class nav-bar
+
+# Using the Application Template and {{outlet}}s
+
 
 
