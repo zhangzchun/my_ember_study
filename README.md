@@ -58,6 +58,12 @@ Passing Content to Components with {{yield}}
 The {{outlet}} keyword denotes the place where our site's pages should be rendered into, similar to the {{yield}} keyword we saw earlier.
 ```
 
+# More About Components
+> + Generating Components
+> ember generate component rental
+> + Organizing Code with Namespaced Components
+> ember generate component rental/image
+
 
 
 
