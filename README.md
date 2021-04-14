@@ -30,3 +30,9 @@ installing component-test
 # Building Pages
 > ember generate route about  
 > ember generate route contact  
+> Ember provides an alternative called <LinkTo> instead of the plain-old <a> tag
+```
+<a> tag with the appropriate href would require the browser to make a full-page refresh,
+```
+
+
