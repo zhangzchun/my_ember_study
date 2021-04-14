@@ -52,7 +52,12 @@ Passing Content to Components with {{yield}}
 > ember generate component nav-bar
 > ember generate component-class nav-bar
 
-# Using the Application Template and {{outlet}}s
+> Using the Application Template and {{outlet}}s
+> moving the nav-bar into a special template called application.hbs.
+```
+The {{outlet}} keyword denotes the place where our site's pages should be rendered into, similar to the {{yield}} keyword we saw earlier.
+```
+
 
 
 
