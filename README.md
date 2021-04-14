@@ -16,3 +16,7 @@ installing component-test
   create tests\integration\components\people-list-test.js
 ```
 > ember generate component-class people-list
+
+# on person click
+
+# Create a app/templates/index.hbs
