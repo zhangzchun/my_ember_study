@@ -1,9 +1,9 @@
 ## my_ember_study
 # 21/4/9 quick start
 # scientists
-> npm install -g ember-cli
-> ember new my_ember_study
-> ember generate route scientists
+> npm install -g ember-cli  
+> ember new my_ember_study  
+> ember generate route scientists  
 
 # person
 > ember generate component people-list
@@ -19,6 +19,13 @@ installing component-test
 
 # on person click
 
-# Create a app/templates/index.hbs
+### tutorial
+## part1 
+# Orientation
+> delete the app/templates/application.hbs file.  
+> Create a app/templates/index.hbs file.  
+> copy it into app/styles/app.css file.  
+> download the teaching-tomster.png image  
 
-# tutorial part1 orientation
+# Building Pages
+> ember generate route about  
