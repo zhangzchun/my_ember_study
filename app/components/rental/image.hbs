@@ -2,18 +2,32 @@
 <div class="image">
   <img ...attributes>
 </div>-->
+<!-- 1-1-1 -->
+<!--
 {{#if this.isLarge}}
-  <!--<div class="image large">-->
   <button type="button" class="image large" {{on "click" this.toggleSize}}>
     <img ...attributes>
     <small>View Smaller</small>
-  <!--</div>-->
   </button>
 {{else}}
-  <!--<div class="image">-->
   <button type="button" class="image" {{on "click" this.toggleSize}}>
     <img ...attributes>
     <small>View Larger</small>
-  <!--</div>-->
   </button>
 {{/if}}
+-->
+<!-- 2-2-2 -->
+<!--
+<button type="button" class="image {{if this.isLarge "large"}}" {{on "click" this.toggleSize}}>
+  <img ...attributes>
+  {{#if this.isLarge}}
+    <small>View Smaller</small>
+  {{else}}
+    <small>View Larger</small>
+  {{/if}}
+</button> -->
+<!-- 3-3-3 -->
+<button type="button" class="image {{if this.isLarge "large"}}" {{on "click" this.toggleSize}}>
+  <img ...attributes>
+  <small>View {{if this.isLarge "Smaller" "Larger"}}</small>
+</button>
