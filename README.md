@@ -41,5 +41,10 @@ installing component-test
 In this case, we generated an acceptance test located at tests\acceptance\my-ember-study-test.js
 ```
 
+# Component Basics
+Passing Content to Components with {{yield}}
+> ember generate component jumbo
+> ember generate component-class jumbo
+> ember generate component-test jumbo
 
 
