@@ -29,3 +29,4 @@ installing component-test
 
 # Building Pages
 > ember generate route about  
+> ember generate route contact  
