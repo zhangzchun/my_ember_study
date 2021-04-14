@@ -20,3 +20,5 @@ installing component-test
 # on person click
 
 # Create a app/templates/index.hbs
+
+# tutorial part1 orientation
