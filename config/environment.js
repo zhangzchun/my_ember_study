@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'my-ember-app',
+    modulePrefix: 'my-ember-study',
     environment,
     rootURL: '/',
     locationType: 'auto',
@@ -46,6 +46,7 @@ module.exports = function (environment) {
   if (environment === 'production') {
     // here you can enable a production-specific feature
   }
+  ENV.MAPBOX_ACCESS_TOKEN = 'pk.eyJ1Ijoiemhhbmd6Y2h1biIsImEiOiJja25oYWhxNmcwaHhxMm9udzdybTV4N292In0.s73KP8lItad1nsU4rxbpyA';
 
   return ENV;
 };
