@@ -71,4 +71,12 @@ The {{outlet}} keyword denotes the place where our site's pages should be render
 > + Testing User Interactions
 > {{ if }} {{ else }} {{ /if }}
 
-#
+# Reusable Components
+> + Managing Application-level Configurations
+> + Generating a Component with a Component Class
+> ember generate component map --with-component-class
+> + Parameterizing Components with Arguments
+> + Interpolating Values in Templates
+> + Overriding HTML Attributes in
+
+# 
