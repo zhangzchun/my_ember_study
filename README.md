@@ -89,3 +89,7 @@ The {{outlet}} keyword denotes the place where our site's pages should be render
 <a href="/downloads/data.zip" download="data.zip">download this data file</a>
 ```
 
+> + Adapting Server Data
+> + Fetching Remote Data from the Model Hook
+> + Loops and Local Variables in Templates with {{#each}}
+
