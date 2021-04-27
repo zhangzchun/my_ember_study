@@ -93,3 +93,7 @@ The {{outlet}} keyword denotes the place where our site's pages should be render
 > + Fetching Remote Data from the Model Hook
 > + Loops and Local Variables in Templates with {{#each}}
 
+## part2
+# Route Params
+> + Routes with Dynamic Segments
+> + Links with Dynamic Segments
