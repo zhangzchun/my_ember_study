@@ -97,3 +97,7 @@ The {{outlet}} keyword denotes the place where our site's pages should be render
 # Route Params
 > + Routes with Dynamic Segments
 > + Links with Dynamic Segments
+
+# Service Injection
+> + Splattributes and the class Attribute
+> ember generate component share-button --with-component-class
