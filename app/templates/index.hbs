@@ -10,21 +10,30 @@
 </Jumbo>
 
 <!-- <h1>{{@model.title}}</h1> -->
+<!--
 <div class="rentals">
+
+  <label>
+    <span>Where would you like to stay?</span>
+    <input class="light">
+  </label>
+
   <ul class="results">
-    <!--
+    &lt;!&ndash;
     <li><Rental /></li>
     <li><Rental /></li>
     <li><Rental /></li>
-    -->
-    <!--
+    &ndash;&gt;
+    &lt;!&ndash;
     <li><Rental @rental={{@model}} /></li>
     <li><Rental @rental={{@model}} /></li>
     <li><Rental @rental={{@model}} /></li>
-    -->
+    &ndash;&gt;
 
     {{#each @model as |rental|}}
       <li><Rental @rental={{rental}} /></li>
     {{/each}}
   </ul>
-</div>
+</div>-->
+
+<Rentals @rentals={{@model}} />

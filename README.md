@@ -110,3 +110,8 @@ installing model-test
 ```
 > + app/adapters/application.js
 > + app/serializers/application.js
+
+# Provider Components
+> +
+> ember generate component rentals --with-component-class
+> ember generate component rentals/filter --with-component-class
