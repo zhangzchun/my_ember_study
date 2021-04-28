@@ -101,3 +101,12 @@ The {{outlet}} keyword denotes the place where our site's pages should be render
 # Service Injection
 > + Splattributes and the class Attribute
 > ember generate component share-button --with-component-class
+
+# Ember Data
+> ember generate model-test rental
+```
+installing model-test
+  create tests\unit\models\rental-test.js
+```
+> + app/adapters/application.js
+> + app/serializers/application.js
