@@ -5,9 +5,11 @@
 <WelcomePage />
 {{!-- Feel free to remove this! --}}
 
-{{outlet}}-->
+{{outlet}}
+-->
 
 <div class="messages">
+  <!--
   <aside>
     <div class="avatar is-active" title="Tomster's avatar">T</div>
   </aside>
@@ -22,7 +24,10 @@
       I sent you?
     </p>
   </section>
+  -->
+  <ReceivedMessage/>
 
+  <!--
   <aside class="current-user">
     <div class="avatar" title="Zoey's avatar">Z</div>
   </aside>
@@ -55,11 +60,16 @@
 
     <p>Let me know when you've nailed down the dates!</p>
   </section>
+  -->
+  <SentMessage />
 
+  <!--
   <form>
     <input />
     <button type="submit">
       Send
     </button>
   </form>
+  -->
+  <NewMessageInput />
 </div>

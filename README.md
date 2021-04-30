@@ -24,4 +24,36 @@ No <script> tags
 Other than that, go to town!
 ```
 
+# Introducing Components
+> + Breaking it into pieces
+>>> The Received Message
+> ember generate component received-message
+>>> The Sent Message
+> ember generate component sent-message
+>>> The New Message Input
+> ember generate component new-message-input
+>>> 
+
+> + Breaking Components Down Further
+```
+app/
+  components/
+-    received-message.hbs
++    received-message/
++      index.hbs
++      avatar.hbs
++      username.hbs
+tests/
+  integrat/
+    com/
+-      rece-----test
+```
+> ember generate component received-message/index
+> ember generate component received-message/avatar
+> ember generate component received-message/username
+>>>>
+> ember generate component sent-message/index
+> ember generate component sent-message/avatar
+> ember generate component sent-message/username
+
 
