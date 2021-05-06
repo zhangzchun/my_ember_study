@@ -56,4 +56,14 @@ tests/
 > ember generate component sent-message/avatar
 > ember generate component sent-message/username
 
+# Component Arguments and HTML Attributes
+> + Arguments
+> ember generate component avatar
+> + HTML Attributes
+> 
+# Conditional Content
+> + Block if
+>>> Motivation
+> ember generate component username
+
 
