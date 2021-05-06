@@ -65,5 +65,7 @@ tests/
 > + Block if
 >>> Motivation
 > ember generate component username
-
+> + Inline if
+>>> Motivation
+> ember generate component username
 
