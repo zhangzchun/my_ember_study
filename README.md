@@ -76,4 +76,7 @@ tests/
 > + Block Parameters
 > ember generate component blog-post
 
-# 
+# Helper Functions
+> + Writing a Helper Function
+> + Named Arguments
+> + Built-in Helpers
