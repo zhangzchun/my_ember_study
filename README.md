@@ -60,7 +60,7 @@ tests/
 > + Arguments
 > ember generate component avatar
 > + HTML Attributes
-> 
+
 # Conditional Content
 > + Block if
 >>> Motivation
@@ -69,3 +69,11 @@ tests/
 >>> Motivation
 > ember generate component username
 
+# Block Content
+> ember generate component message
+> + Conditional Blocks
+> ember generate component error-dialog
+> + Block Parameters
+> ember generate component blog-post
+
+# 
