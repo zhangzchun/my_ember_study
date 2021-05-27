@@ -115,3 +115,11 @@ installing model-test
 > +
 > ember generate component rentals --with-component-class
 > ember generate component rentals/filter --with-component-class
+
+# Component State and Actions
+> ember generate route actions 
+> ember generate component counter --with-component-class
+> + Tracked Properties
+> + HTML Modifiers and Actions
+> + Passing Arguments to Actions
+> + 
