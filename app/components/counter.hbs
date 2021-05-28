@@ -1,4 +1,18 @@
 <p>{{this.count}}</p>
 
+<!--
 <button type="button" {{on "click" this.increment}}>+1</button>
 <button type="button" {{on "click" this.decrement}}>-1</button>
+-->
+
+<button type="button" {{on "click" (fn this.change 1)}}>+1</button>
+<button type="button" {{on "click" (fn this.change -1)}}>-1</button>
+<p></p>
+<hr>
+
+<p>× {{this.multiple}}</p>
+<button type="button" {{on "click" this.double}}>Double It</button>
+<p></p>
+<hr>
+
+<p>= {{this.total}}</p>
