@@ -123,3 +123,6 @@ installing model-test
 > + HTML Modifiers and Actions
 > + Passing Arguments to Actions
 > + Computed Values
+> + Combining Arguments and State
+> ember generate component double-it --with-component-class
+> 

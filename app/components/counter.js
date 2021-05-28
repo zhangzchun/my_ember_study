@@ -24,10 +24,12 @@ export default class CounterComponent extends Component {
 
   @action
   double() {
-    this.multiple = this.multiple * 2;
+    // this.multiple = this.multiple * 2;
+    this.args.updateMultiple(this.args.multiple * 2);
   }
 
   get total() {
-    return this.count * this.multiple;
+    // return this.count * this.multiple;
+    return this.count * this.args.multiple;
   }
 }
