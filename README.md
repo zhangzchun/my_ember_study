@@ -24,4 +24,7 @@ No <script> tags
 Other than that, go to town!
 ```
 
-
+# Looping Through Lists
+> ember generate component messages --with-component-class
+> ember generate component message --with-component-class
+> ember generate component new-message-input

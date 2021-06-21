@@ -1,0 +1,23 @@
+<!--
+<Avatar
+  @title="{{@username}}'s avatar"
+  @initial={{substring @username start=0 end=1}}
+  @isActive={{@userIsActive}}
+  class="{{if @isCurrentUser "current-user"}}"
+></Avatar>-->
+<aside ...attributes>
+    <div class="avatar {{if @userIsActive "is-active"}}"
+         title={{@username}}
+    >
+        {{@initial}}
+    </div>
+</aside>
+<section>
+    <h4 class="username">
+        {{@username}}
+        {{#if @userLocalTime}}
+            <span class="local-time">their local time is {{@userLocalTime}}</span>
+        {{/if}}
+    </h4>
+  {{yield}}
+</section>
